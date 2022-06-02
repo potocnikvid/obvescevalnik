@@ -1,4 +1,9 @@
 # Lastni projekt pri predmetu TPO
+|                             |                                                         |
+| :-------------------------- | :------------------------------------------------------ |
+| **Naziv projekta**          | Občinski obveščevalnik |
+| **Člani projektne skupine** | Matic Conradi, Vid Potočnik, Miha Godec, Lucijan Semprimožnik, Luka Kolar |
+| **Kraj in datum**           | Ljubljana, 30.3.2022                                   |
 
 Vsaka skupina, ki je sestavljena iz 5 članov, mora razviti lastni projekt (LP) na izbrani problemski domeni, in sicer od **predloga projekta** do **implementacije**, kjer je podrobna razdelitev naslednja:
 
