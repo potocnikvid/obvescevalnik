@@ -50,8 +50,8 @@ on:
       - production
 
 env:
-  PROJECT_ID: obvsecevalnik # update Google Cloud project id
-  GAR_LOCATION: eu-central1 # update Artifact Registry location
+  PROJECT_ID: obvescevalnik # update Google Cloud project id
+  GAR_LOCATION: us-central1 # update Artifact Registry location
   SERVICE: spletna-stran # update Cloud Run service name
   REGION: eu-central1 # update Cloud Run service region
 
