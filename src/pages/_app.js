@@ -8,7 +8,7 @@ import { cacheUserData, signOut } from "../scripts/user"
 
 
 const firebaseConfig = {
-  apiKey: process.env.GCP_API_KEY,
+  apiKey: "AIzaSyBb2fDd8zhtmE_YbBB2hlRg9pTHR0YXzfo",
   authDomain: "obvescevalnik.firebaseapp.com",
   projectId: "obvescevalnik",
   storageBucket: "obvescevalnik.appspot.com",
