@@ -6,17 +6,9 @@ import { initializeApp } from "firebase/app"
 import { getAuth, onAuthStateChanged } from "firebase/auth"
 import { cacheUserData, signOut } from "../scripts/user"
 
-// const firebaseConfig = {
-// 	apiKey: "AIzaSyCRDoaXl6F4u_vkOXIqf79QLtQLy9zp-o0",
-// 	authDomain: "tpo-skupina-24.firebaseapp.com",
-// 	projectId: "tpo-skupina-24",
-// 	storageBucket: "tpo-skupina-24.appspot.com",
-// 	messagingSenderId: "30111198436",
-// 	appId: "1:30111198436:web:bd2e46dd9d796931d390f1",
-// }
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBb2fDd8zhtmE_YbBB2hlRg9pTHR0YXzfo",
+  apiKey: process.env.GCP_API_KEY,
   authDomain: "obvescevalnik.firebaseapp.com",
   projectId: "obvescevalnik",
   storageBucket: "obvescevalnik.appspot.com",
