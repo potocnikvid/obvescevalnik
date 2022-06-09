@@ -51,9 +51,9 @@ on:
 
 env:
   PROJECT_ID: obvescevalnik # update Google Cloud project id
-  GAR_LOCATION: eu-central1 # update Artifact Registry location
-  SERVICE: spletna-stran # update Cloud Run service name
-  REGION: eu-central1 # update Cloud Run service region
+  GAR_LOCATION: us-central1 # update Artifact Registry location
+  SERVICE: obvescevalnik-service # update Cloud Run service name
+  REGION: us-central1 # update Cloud Run service region
 
 jobs:
   deploy:
