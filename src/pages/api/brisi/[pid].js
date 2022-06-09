@@ -7,12 +7,12 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 const firestore = new Firestore({
-	projectId: "tpo-skupina-24",
+	projectId: "obvescevalnik",
 })
 const storage = new Storage({
-	projectId: "tpo-skupina-24",
+	projectId: "obvescevalnik",
 })
-const bucket = storage.bucket("gs://tpo-skupina-24.appspot.com")
+const bucket = storage.bucket("gs://obvescevalnik.appspot.com")
 if (!firebase.apps.length) {
 	firebase.initializeApp()
 }
@@ -122,7 +122,7 @@ export default async function handler(req, res) {
 			.then((response) => {
 				return Promise.all(
 					response.slike.map((slika) => {
-						return bucket.file(slika.split("tpo-skupina-24.appspot.com/")[1]).delete()
+						return bucket.file(slika.split("obvescevalnik.appspot.com/")[1]).delete()
 					})
 				)
 			})

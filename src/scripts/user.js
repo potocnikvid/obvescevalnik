@@ -16,6 +16,7 @@ export const cacheUserData = (user, global) => {
 				}
 			})
 			.then((data) => {
+				console.log(data)
 				if (data.data) {
 					global.update({
 						...global,

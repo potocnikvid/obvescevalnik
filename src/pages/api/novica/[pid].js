@@ -9,12 +9,12 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 const firestore = new Firestore({
-	projectId: "tpo-skupina-24",
+	projectId: "obvescevalnik",
 })
 const storage = new Storage({
-	projectId: "tpo-skupina-24",
+	projectId: "obvescevalnik",
 })
-const bucket = storage.bucket("gs://tpo-skupina-24.appspot.com")
+const bucket = storage.bucket("gs://obvescevalnik.appspot.com")
 if (!firebase.apps.length) {
 	firebase.initializeApp()
 }

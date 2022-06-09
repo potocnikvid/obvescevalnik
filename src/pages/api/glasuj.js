@@ -6,7 +6,7 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 const firestore = new Firestore({
-	projectId: "tpo-skupina-24",
+	projectId: "obvescevalnik",
 })
 if (!firebase.apps.length) {
 	firebase.initializeApp()
@@ -49,6 +49,7 @@ export default async function handler(req, res) {
 					.doc(req.body.id)
 					.get()
 					.then((response) => {
+						print(response.data())
 						return response.data()
 					})
 			})

@@ -2,7 +2,7 @@
 const nextConfig = {
 	reactStrictMode: true,
 	images: {
-		domains: ["storage.googleapis.com", "spletna-stran-jtev46nqva-uc.a.run.app"],
+		domains: ["storage.googleapis.com", "obvescevalnik.appspot.com"],
 	},
 }
 

@@ -1,0 +1,15 @@
+*.DS_Store
+*.log
+.idea
+node_modules/
+.next
+out/
+.firebaserc
+.firebase
+service_account.json
+.env
+src/cypress/downloads
+src/cypress/fixtures
+src/cypress/plugins
+src/cypress/support
+src/cypress.env.json

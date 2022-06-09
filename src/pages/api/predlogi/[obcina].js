@@ -6,7 +6,7 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 const firestore = new Firestore({
-	projectId: "tpo-skupina-24",
+	projectId: "obvescevalnik",
 })
 if (!firebase.apps.length) {
 	firebase.initializeApp()
@@ -110,6 +110,7 @@ export default async function handler(req, res) {
 					if (ocena === 0) return b.timestamp - a.timestamp
 					return ocena
 				})
+			console.log(JSON.stringify(data))
 			res.status(200).send(JSON.stringify(data))
 		})
 		.catch((err) => {

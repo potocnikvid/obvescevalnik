@@ -83,6 +83,7 @@ export default function Predlog() {
 			if (response.status === 200) {
 				osvezi()
 			} else {
+				router.push("/prijava")
 				console.error(response.status)
 			}
 		})
