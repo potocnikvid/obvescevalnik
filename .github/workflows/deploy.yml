@@ -55,10 +55,9 @@ env:
   SERVICE: obvescevalnik-repo # update Cloud Run service name
   REGION: europe-central2 # update Cloud Run service region
 
-
 jobs:
   deploy:
-    # Add 'id-token' with the intended permissions for workload identity federation
+    # Add 'id-token' with the intended permissions for workload identity federationn
     permissions:
       contents: 'read'
       id-token: 'write'
