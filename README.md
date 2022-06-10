@@ -14,7 +14,7 @@ Vsaka skupina, ki je sestavljena iz 5 članov, mora razviti lastni projekt (LP) 
 
 # Zagon
 
-Stran je v produkciji na voljo na [tej povezavi](http://spletna-stran-jtev46nqva-uc.a.run.app). Prvo nalaganje spletne strani na javni povezavi zna trajati več deset sekund, saj mora ob predhodni neaktivnosti Google Cloud Run izvesti mrzli zagon ("cold start"). Informacije o lokalnem zagonu se nahajajo v [mapi /src](src). Podatki o testiranju se nahajajo v [mapi /test](test).
+Stran je v produkciji na voljo na [tej povezavi](https://obvescevalnik-service-q5mxa7qd6q-uc.a.run.app). Prvo nalaganje spletne strani na javni povezavi zna trajati več deset sekund, saj mora ob predhodni neaktivnosti Google Cloud Run izvesti mrzli zagon ("cold start"). Informacije o lokalnem zagonu se nahajajo v [mapi /src](src). Podatki o testiranju se nahajajo v [mapi /test](test).
 
 # Uporabniški podatki
 
