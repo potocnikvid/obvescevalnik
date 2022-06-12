@@ -1,4 +1,4 @@
-
+|                             |                                                         |
 | :-------------------------- | :------------------------------------------------------ |
 | **Naziv projekta**          | Občinski obveščevalnik |
 | **Člani projektne skupine** | Matic Conradi, Vid Potočnik, Miha Godec, Lucijan Semprimožnik, Luka Kolar |
